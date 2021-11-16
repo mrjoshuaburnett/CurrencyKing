@@ -1,0 +1,23 @@
+html,
+body {
+    min-height: 100%;
+    background-color: #f7f7f5 !important;
+    overflow: auto !important;
+}
+
+@media (min-width: 1904px) {
+.container {
+    max-width:1185px!important;
+}
+}
+
+* {
+    text-transform: none !important;
+}
+
+.v-input__prepend-inner .v-icon{
+    font-size:18px!important;
+}
+.v-input__prepend-inner .v-input__icon {
+    width:44px!important;
+}
